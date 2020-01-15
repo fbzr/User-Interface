@@ -106,7 +106,7 @@ nav {
 
 .nav-links a {
 	display: inline-block;
-	width: 16%;
+	width: 13%;
 
 	text-decoration: none;
 	color: #999;
@@ -149,7 +149,7 @@ header a {
 	padding-right: 2%;
 }
 
-section {
+.home-container section {
 	display: inline-block;
 	padding: 4% 0;
 }
@@ -172,5 +172,42 @@ section {
 
 footer p {
 	text-align: center;
+}
+
+/* Clients page */
+#clients div {
+	display: inline-block;
+}
+
+.client {
+	padding: 2% 0;
+}
+.client img {
+	max-width: 200px;
+}
+.client-photo {
+	width: 30%;
+	text-align: right;
+	padding-right: 40px;
+}
+
+.clients-container header {
+	background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+	url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.clients-container header h1 {
+	color:#eee;
+	text-align: center;
+}
+
+.clients-container section {
+	padding: 4% 0;
 }
 
