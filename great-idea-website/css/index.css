@@ -112,6 +112,9 @@ nav {
 	color: #999;
 
 	padding: 27px 0;
+	text-align: center;
+	
+	transition: background-color 300ms;
 }
 
 .nav-links a:hover {
@@ -156,6 +159,8 @@ header a {
 	border: solid 1px #000;
 	text-decoration: none;
 	color: #000;
+
+	transition: background-color 300ms;
 }
 
 .padding-right {
