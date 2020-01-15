@@ -16,7 +16,7 @@
   <![endif]-->
 </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <div class="nav-container">
         <div class="nav-links">
           <a href="./index.html#services">Services</a>
@@ -78,6 +78,18 @@
         <p>Copyright Great Idea! 2018</p>
       </footer>
     </div>
-  </body>
 
+    <script>
+        let myNav = document.getElementById("navbar");
+  
+        window.onscroll = function() {
+          "use strict";
+          if (document.body.scrollTop >= 70 || document.documentElement.scrollTop >= 70) {
+            myNav.classList.add("scrolled");
+          } else {
+            myNav.classList.remove("scrolled");
+          }
+        };
+      </script>
+  </body>
 </html>

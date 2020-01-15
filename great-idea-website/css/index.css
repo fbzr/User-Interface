@@ -85,8 +85,14 @@ nav {
 	width: 100%;
 	
 	padding: 0 70px;
-	background-color: rgb(204, 251, 255);
+	background-color: #fff;
 	z-index: 150;
+	transition: background-color 400ms linear;
+}
+
+#navbar.scrolled {
+	background-color: rgb(204, 251, 255) !important;
+	transition: background-color 400ms linear;
 }
 
 .nav-container {
