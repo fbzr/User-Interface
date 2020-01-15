@@ -73,26 +73,33 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	margin: 0 70px;
+	padding-top: 70px;
 }
 
 nav {
-	position: relative;
-	height: 70px;
+	position: fixed;
+	width: 100%;
+	
+	padding: 0 70px;
+	background-color: rgb(204, 251, 255);
+	z-index: 150;
 }
 
-nav div {
-	display: inline-block;
+.nav-container {
+	width: 100%;
+	position: relative;
+	height: 70px;
 }
 
 /* Vertically center the div with all the nav links */
 .nav-links {
 	position: absolute;
-	top: 50%;
-	
-	transform: translateY(-50%);
-
 	width: 80%;
+
+	top: 50%;
+	transform: translateY(-50%);
 }
+
 .nav-links a {
 	display: inline-block;
 	width: 16%;
@@ -104,9 +111,9 @@ nav div {
 /* Vertically center the div with the logo and shit it to the right */
 .nav-img {
 	position: absolute;
+	right: 0;
 	top: 50%;
 	transform: translateY(-50%);
-	right: 0;
 }
 
 header, footer {
