@@ -77,28 +77,30 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	position: relative;
-	height: 70px;
 }
 
-nav ul {
-	display: inline-block;
-	vertical-align: middle;
-	position: absolute;
-}
-
-nav li {
+nav div {
 	display: inline-block;
 }
 
-nav img {
-	position: absolute;
-	right: 0;
+.nav-links {
+	width: 75%;
+}
+.nav-links a {
+	display: inline-block;
+}
+
+.nav-img {
+	width: 24%;
+	text-align: right;
 }
 
 header div {
 	display: inline-block;
 	width: 50%;
 	text-align: center;
+
+	
 }
 
 header, footer {
@@ -109,9 +111,13 @@ header h1 {
 	font-size: 50px;
 }
 
+.padding-right {
+	padding-right: 2%;
+}
+
 section {
 	display: inline-block;
-	padding: 4% 2%;
+	padding: 4% 0;
 }
 
 .two-columns-section {
@@ -126,5 +132,11 @@ section {
 	width: 100%;
 }
 
+#contact p {
+	margin-bottom: 15px; 
+}
 
+footer p {
+	text-align: center;
+}
 
