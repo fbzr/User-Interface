@@ -110,6 +110,13 @@ nav {
 
 	text-decoration: none;
 	color: #999;
+
+	padding: 27px 0;
+}
+
+.nav-links a:hover {
+	background-color: #333;
+	color: #fff;
 }
 
 /* Vertically center the div with the logo and shit it to the right */
@@ -118,6 +125,12 @@ nav {
 	right: 0;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+/* Add hover effect */
+.home-container header a:hover {
+	background-color: #333;
+	color: #fff;
 }
 
 header, footer {
@@ -203,7 +216,7 @@ footer p {
 }
 
 .clients-container header h1 {
-	color:#eee;
+	color:#fff;
 	text-align: center;
 }
 
