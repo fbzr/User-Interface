@@ -77,38 +77,51 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	position: relative;
+	height: 70px;
 }
 
 nav div {
 	display: inline-block;
 }
 
+/* Vertically center the div with all the nav links */
 .nav-links {
-	width: 75%;
+	position: absolute;
+	top: 50%;
+	
+	transform: translateY(-50%);
+
+	width: 80%;
 }
 .nav-links a {
 	display: inline-block;
+	width: 16%;
 }
 
+/* Vertically center the div with the logo and shit it to the right */
 .nav-img {
-	width: 24%;
-	text-align: right;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+}
+
+header, footer {
+	position: relative;
+	padding: 4% 0;
 }
 
 header div {
 	display: inline-block;
 	width: 50%;
 	text-align: center;
-
 	
-}
-
-header, footer {
-	padding: 4% 0;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 header h1 {
-	font-size: 50px;
+	font-size: 60px;
 }
 
 .padding-right {
