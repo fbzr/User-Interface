@@ -96,6 +96,9 @@ nav div {
 .nav-links a {
 	display: inline-block;
 	width: 16%;
+
+	text-decoration: none;
+	color: #999;
 }
 
 /* Vertically center the div with the logo and shit it to the right */
@@ -122,6 +125,14 @@ header div {
 
 header h1 {
 	font-size: 60px;
+}
+
+header a {
+	padding: 5px 40px;
+    background-color: #fff;
+	border: solid 1px #000;
+	text-decoration: none;
+	color: #000;
 }
 
 .padding-right {
