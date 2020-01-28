@@ -64,3 +64,187 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	margin: 0 70px;
+	padding-top: 70px;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	
+	padding: 0 70px;
+	background-color: #fff;
+	z-index: 150;
+	transition: background-color 400ms linear;
+}
+
+#navbar.scrolled {
+	background-color: rgb(204, 251, 255) !important;
+	transition: background-color 400ms linear;
+}
+
+.nav-container {
+	width: 100%;
+	position: relative;
+	height: 70px;
+}
+
+/* Vertically center the div with all the nav links */
+.nav-links {
+	position: absolute;
+	width: 80%;
+
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.nav-links a {
+	display: inline-block;
+	width: 13%;
+
+	text-decoration: none;
+	color: #999;
+
+	padding: 27px 0;
+	text-align: center;
+	
+	transition: background-color 300ms;
+}
+
+.nav-links a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* Vertically center the div with the logo and shit it to the right */
+.nav-img {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* Add hover effect */
+.home-container header a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+header, footer {
+	position: relative;
+	padding: 4% 0;
+}
+
+header div {
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+}
+
+.header-text {
+	transform: translateY(-40%);
+}
+
+.header-image {
+    background-image: url(../img/header-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+}
+
+header h1 {
+	font-size: 60px;
+}
+
+header a {
+	padding: 5px 40px;
+    background-color: #fff;
+	border: solid 1px #000;
+	text-decoration: none;
+	color: #000;
+
+	transition: background-color 300ms;
+}
+
+.padding-right {
+	padding-right: 2%;
+}
+
+.home-container section {
+	display: inline-block;
+	padding: 4% 0;
+}
+
+.two-columns-section {
+	width: 49%;
+}
+
+.three-columns-section {
+	width: 32%;
+}
+
+.middle-img {
+	width: 100%;
+	height: 250px;
+	background-image: url(../img/mid-page-accent.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact p {
+	margin-bottom: 15px; 
+}
+
+footer p {
+	text-align: center;
+}
+
+/* Clients page */
+#clients div {
+	display: inline-block;
+}
+
+.client {
+	padding: 2% 0;
+}
+.client img {
+	max-width: 200px;
+}
+.client-photo {
+	width: 30%;
+	text-align: right;
+	padding-right: 40px;
+}
+
+.clients-container header {
+	background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+	url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.clients-container header h1 {
+	color:#fff;
+	text-align: center;
+}
+
+.clients-container section {
+	padding: 4% 0;
+}
+
